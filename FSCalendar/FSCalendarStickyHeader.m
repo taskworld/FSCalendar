@@ -45,7 +45,7 @@
         self.titleLabel = label;
         
         view = [[UIView alloc] initWithFrame:CGRectZero];
-        view.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.25];
+        view.backgroundColor = [UIColor clearColor];
         [_contentView addSubview:view];
         self.separator = view;
         
